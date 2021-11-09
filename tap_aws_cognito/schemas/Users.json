@@ -1,0 +1,31 @@
+{
+    "type": "object",
+    "properties": {
+        "Username": {
+            "type": "string"
+        },
+        "UserCreateDate": {
+            "format": "date-time",
+            "type": "string"
+        },
+        "UserLastModifiedDate": {
+            "format": "date-time",
+            "type": "string"
+        },
+        "Enabled": {
+            "type": "boolean"
+        },
+        "UserStatus": {
+            "type": "string"
+        },
+        "Email": {
+            "type": "string"
+        },
+        "EmailVerified": {
+            "type": "boolean"
+        },
+        "Attributes": {
+            "type": "string"
+        }
+    }
+}
